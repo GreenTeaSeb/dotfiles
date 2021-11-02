@@ -1,9 +1,5 @@
 # Created by newuser for 5.8
 source /usr/share/zsh/share/antigen.zsh
-alias ls='exa -lFh'
-alias lt='ls --tree'
-alias vim='nvim'
-
 antigen use oh-my-zsh
 
 antigen bundle git
@@ -38,4 +34,5 @@ source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 alias ls='exa -lFh'
 alias lt='ls --tree'
 alias cp='cpv'
+alias vim='nvim'
 eval "$(starship init zsh)"
