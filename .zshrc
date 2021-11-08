@@ -36,3 +36,5 @@ alias lt='ls --tree'
 alias cp='cpv'
 alias vim='nvim'
 eval "$(starship init zsh)"
+./Projects/rufet/rufet/target/release/rufet
+autoload -U compinit && compinit
